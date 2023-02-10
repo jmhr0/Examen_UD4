@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="personas.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<personas>
+    <persona>
+        <nombre>Eva</nombre>
+        <ciudad>Paris</ciudad>
+        <edad>25</edad>
+    </persona>
+    <persona>
+        <nombre>Giovanni</nombre>
+        <ciudad>Florencia</ciudad>
+        <edad>26</edad>
+    </persona>
+</personas>

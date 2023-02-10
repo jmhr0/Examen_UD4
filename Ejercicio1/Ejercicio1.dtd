@@ -1,0 +1,12 @@
+<!ELEMENT pedidos (sucursal)>
+<!ELEMENT sucursal (trabajador,fecha,observaciones,Articulos)>
+<!ATTLIST sucursal codigo NMTOKEN #REQUIRED>
+<!ELEMENT trabajador (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT Articulos (NumeroUds,Precio,ObservacionesArt,PlazoRevision)>
+<!ATTLIST Articulos codigo NMTOKEN #REQUIRED>
+<!ELEMENT NumeroUds (#PCDATA)>
+<!ELEMENT Precio (#PCDATA)>
+<!ELEMENT ObservacionesArt (#PCDATA)>
+<!ELEMENT PlazoRevision (#PCDATA)>

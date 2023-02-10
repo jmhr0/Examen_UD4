@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Ejercicio1.dtd" type="application/xml-dtd"?>
+<pedidos>
+    <sucursal codigo="A8383923">
+        <trabajador>Juan Manuel Herrera</trabajador>
+        <fecha>2023-02-10</fecha>
+        <observaciones>urgente</observaciones>
+        <Articulos codigo="AAA-000">
+            <NumeroUds>5</NumeroUds>
+            <Precio>20</Precio>
+            <ObservacionesArt>De buena calidad</ObservacionesArt>
+            <PlazoRevision>23</PlazoRevision>
+        </Articulos>
+    </sucursal>
+</pedidos>
